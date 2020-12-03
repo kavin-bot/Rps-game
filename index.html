@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <script src="rps.js"></script>
+    <title>RPS</title>
+</head>
+<body>
+    
+    <div id="box-making_div"> <!--entire box-->
+        <div id="head_div">  <!--head-box-->
+            <h1>ROCK! PAPER! SCISSOR!</h1>
+        </div>
+        <div id="content_div">   <!--content-box-->
+            <section id="content-in_section">  <!--content-small box-->
+                <div id="user_div">user</div>
+                <div id="comp_div">Comp</div>
+            </section>
+                <span id="user-choice_span"  value="0" >0</span>:
+                <span id="computer-choice_span" value="0" >0</span>
+        </div>
+            <section >
+                <p id="result">lets See </p>
+            </section>
+            <section style="display: flex;justify-content: space-around;" id="emoji_section">
+                <div id="r" >
+                   <button id="button" value="rock" onclick="Rps(value)"><img src="./rock2.png" id="rps"></button>
+                </div>
+                <div id="p" >
+                    <button id="button" value="paper" onclick="Rps(value)"> <img src="./paper2.png" id="rps"></button>
+                </div>
+                <div id="s">
+                    <button id="button" value="scissor" onclick="Rps(value)"><img src="./scissor2.png" id="rps" ></button>
+                </div>
+            </section><br><br>
+
+     <h1 style="text-align: center;">MAKE YOUR MOVE</h1>
+     <button id="refresh" onclick="reset()">Refresh</button>
+    </div>
+    
+</body>
+</html>

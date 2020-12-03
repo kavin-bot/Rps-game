@@ -1,0 +1,61 @@
+#box-making_div{
+    height: 700px;
+    width: 500px;
+    background-color:rgb(142, 190, 64);
+    border: double 2px black;
+}
+#head_div{
+    text-align: center;
+    background-color: white;
+}
+#content_div{
+    height: 100px;
+    width: 160px;
+    background-color: grey;
+    margin-left: 175px;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+
+}
+#content-in_section{
+    padding: 2px 65px;
+    color: white;
+}
+#user_div{
+    position: absolute;
+    top: 30px;
+    left: -20px;
+    background-color: red;
+    font-family: serif;
+    font-size: larger;
+}
+#comp_div{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    background-color: red;
+    font-family: serif;
+    font-size: larger;
+}
+#result{
+    text-align: center;
+    font-size: x-large;
+}
+#result:checked{
+    text-align: center;
+    font-size: xx-large;
+}
+#rps{
+    position: relative;
+    width:100px;
+    height:150px;
+    border: solid white;
+    border-radius: 70%;
+}
+
+#button{
+    background-color:rgb(142,190,64);
+    border: rgb(142,190,64);
+
+}
