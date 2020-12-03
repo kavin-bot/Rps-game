@@ -78,7 +78,7 @@ function reset()
    {
       user=1;
       com=1;
-      document.getElementById('result').innerHTML="Lets see";
+      document.getElementById('result').innerHTML="Lets See";
       document.getElementById('result').style.color="black";
       document.getElementById('user-choice_span').innerHTML=count;
       document.getElementById('computer-choice_span').innerHTML=count;
