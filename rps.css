@@ -1,3 +1,8 @@
+#outer{
+    background-color: rgb(179, 69, 69);
+    padding-left: 400px;
+
+}
 #box-making_div{
     height: 700px;
     width: 500px;
@@ -40,12 +45,9 @@
 }
 #result{
     text-align: center;
-    font-size: x-large;
+    font-size:xx-large;
 }
-#result:checked{
-    text-align: center;
-    font-size: xx-large;
-}
+
 #rps{
     position: relative;
     width:100px;
@@ -58,4 +60,7 @@
     background-color:rgb(142,190,64);
     border: rgb(142,190,64);
 
+}
+#reset:hover{
+  background-color: rgb(red, green, blue);
 }
