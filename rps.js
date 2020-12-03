@@ -19,14 +19,9 @@ function win(){
                    
                }
    function winner(){
-                     
-                     {
                         document.getElementById('result').style.fontSize="300%";
                         document.getElementById('result').style.color="red";
                         document.getElementById('result').innerHTML="You won the game";
-
-                     }
-
                      }               
 function lose(){
                   var computerscore=com++;
